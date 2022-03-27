@@ -8,6 +8,7 @@ function statusFn() {
   }
 
   // сортируем список по статусам
+  // Второй коммит. Тест, без изменений в коде
   const values = as.getRange("A2:K61").getValues();
   const naUkladku = values.filter((e) => e[7] == "На укладку"),
     dalee = values.filter((e) => e[7] == "Далее"),
